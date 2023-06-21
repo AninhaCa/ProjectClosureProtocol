@@ -1,0 +1,6 @@
+framework module Pods_ClosureProtocolTests {
+  umbrella header "Pods-ClosureProtocolTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
