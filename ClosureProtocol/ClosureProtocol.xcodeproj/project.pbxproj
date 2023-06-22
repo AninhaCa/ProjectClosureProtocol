@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2465FD8AF84CDA34DB2C7F07 /* Pods_ClosureProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D005E4435B0262359B40890E /* Pods_ClosureProtocol.framework */; };
 		4DAFB8912BA8C57CE7373BCB /* Pods_ClosureProtocol_ClosureProtocolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29114DD58C76F3E908444558 /* Pods_ClosureProtocol_ClosureProtocolUITests.framework */; };
+		77A8D4192A43D0D000FD9EFD /* MyXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A8D4172A43D0D000FD9EFD /* MyXibCell.swift */; };
+		77A8D41A2A43D0D000FD9EFD /* MyXibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A8D4182A43D0D000FD9EFD /* MyXibCell.xib */; };
 		77EBAB532A3289180078AE6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EBAB522A3289180078AE6F /* AppDelegate.swift */; };
 		77EBAB552A3289180078AE6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EBAB542A3289180078AE6F /* SceneDelegate.swift */; };
 		77EBAB572A3289180078AE6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EBAB562A3289180078AE6F /* ViewController.swift */; };
@@ -43,6 +45,8 @@
 		29114DD58C76F3E908444558 /* Pods_ClosureProtocol_ClosureProtocolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClosureProtocol_ClosureProtocolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B78F8B018C797F9AF6CAC13 /* Pods_ClosureProtocolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClosureProtocolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5069F6AA7817B632543CCAB5 /* Pods-ClosureProtocol-ClosureProtocolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClosureProtocol-ClosureProtocolUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClosureProtocol-ClosureProtocolUITests/Pods-ClosureProtocol-ClosureProtocolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77A8D4172A43D0D000FD9EFD /* MyXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyXibCell.swift; sourceTree = "<group>"; };
+		77A8D4182A43D0D000FD9EFD /* MyXibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyXibCell.xib; sourceTree = "<group>"; };
 		77EBAB4F2A3289180078AE6F /* ClosureProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosureProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77EBAB522A3289180078AE6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77EBAB542A3289180078AE6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				77EBAB522A3289180078AE6F /* AppDelegate.swift */,
 				77EBAB542A3289180078AE6F /* SceneDelegate.swift */,
 				77EBAB562A3289180078AE6F /* ViewController.swift */,
+				77A8D4172A43D0D000FD9EFD /* MyXibCell.swift */,
+				77A8D4182A43D0D000FD9EFD /* MyXibCell.xib */,
 				77EBAB582A3289180078AE6F /* Main.storyboard */,
 				77EBAB5B2A32891A0078AE6F /* Assets.xcassets */,
 				77EBAB5D2A32891A0078AE6F /* LaunchScreen.storyboard */,
@@ -154,7 +160,6 @@
 				A075251B3C61EE1C724EC6EA /* Pods-ClosureProtocolTests.debug.xcconfig */,
 				06F172ABC9FAD843E6CA5B22 /* Pods-ClosureProtocolTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -280,6 +285,7 @@
 				77EBAB5F2A32891A0078AE6F /* LaunchScreen.storyboard in Resources */,
 				77EBAB5C2A32891A0078AE6F /* Assets.xcassets in Resources */,
 				77EBAB5A2A3289180078AE6F /* Main.storyboard in Resources */,
+				77A8D41A2A43D0D000FD9EFD /* MyXibCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +416,7 @@
 				77EBAB572A3289180078AE6F /* ViewController.swift in Sources */,
 				77EBAB532A3289180078AE6F /* AppDelegate.swift in Sources */,
 				77EBAB552A3289180078AE6F /* SceneDelegate.swift in Sources */,
+				77A8D4192A43D0D000FD9EFD /* MyXibCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
